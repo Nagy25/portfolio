@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
@@ -31,9 +29,10 @@ class _BasicServiceItemState extends State<BasicServiceItem> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset(
-              widget.service.logo,
-              height: 48,
+            Icon(
+              widget.service.icon,
+              color: AppColors.darkColor,
+              size: 48,
             ),
             const SizedBox(height: 16),
             if (context.width > DeviceType.mobile.getMinWidth())

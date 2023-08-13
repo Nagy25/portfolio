@@ -1,3 +1,5 @@
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import '../../data/models/custom_service.dart';
 import '../../data/models/project.dart';
 import 'app_assets.dart';
@@ -7,13 +9,13 @@ abstract class AppConstants {
   static const List<CustomService> services = [
     CustomService(
       service: 'MOBILE DEVELOPMENT',
-      logo: AppAssets.androidLogo,
+      icon: FontAwesomeIcons.mobile,
       description:
           'I am a Senior mobile developer. I have experience using Dart and Flutter Framework.',
     ),
     CustomService(
       service: 'DESKTOP DEVELOPMENT',
-      logo: AppAssets.uiDesignLogo,
+      icon: FontAwesomeIcons.desktop,
       description:
           'I design beautiful web interfaces with Figma and Adobe XD. I design beautiful web interfaces with Figma and Adobe XD.',
     ),
