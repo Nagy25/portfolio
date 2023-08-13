@@ -22,23 +22,22 @@ abstract class AppConstants {
   ];
   static const List<Project> projects = [
     Project(
-      name: 'Live score',
+      name: 'Deiil',
       imageUrl:
-          'https://drive.google.com/uc?id=1ITN6reINiIaM-6j3QqxrwtvADZgLNvwB',
+          'https://play-lh.googleusercontent.com/CIdFZeM5roc6gaQqUAPRrX5YtBM09pYHOBJ4ZLktbu-9BF_fhBoNqNefrUFBtGmVjMQ=w2560-h1440-rw',
       description:
-          'A football application to display all related matches and rankings in all international and local tournaments',
-      githubRepoLink: 'https://github.com/radyhaggag/live_score',
-      previewLink: 'https://youtu.be/HSIosFd6Sys',
+          'Dell helps individuals to obtain their request within the application with the same details that they requested for anything from all categories',
+      googlePlay: "https://play.google.com/store/apps/details?id=com.deiil",
     ),
     Project(
-      name: 'Instagram clone',
+      name: 'Brandster',
       imageUrl:
-          'https://drive.google.com/uc?id=1qNFCNYdUo7o36ythQtjaSrv7L0NV_Vnv',
+          'https://play-lh.googleusercontent.com/E6K3BkBYT5Tb1J_JLiVhFBi-exmuTZoaQ1ZfaWLwTbPWQJJFuF-r7kJj3HiYz3ZT-Rc=w2560-h1440-rw',
       description:
-          'Social media application for share posts and stories with people, One-to-one chat, Share reels videos',
-      githubRepoLink:
-          'https://github.com/radyhaggag/Instagram-Clone-With-Clean-Architecture',
-      previewLink: 'https://youtu.be/MuuVjqrR49g',
+          'It’s an application that specializes in selling all kinds of clothes from different international brands with the highest quality and best price, where the customer chooses all the products that he wants to buy, and then we deliver those products',
+      googlePlay:
+          "https://play.google.com/store/apps/details?id=com.mashaheer.codigo",
+      appleStore: "https://apps.apple.com/us/app/mashaheer-egy/id1602907488",
     ),
     Project(
       name: 'TikTok Downloader',
@@ -46,17 +45,12 @@ abstract class AppConstants {
           'https://drive.google.com/uc?id=1SypuIPVdokg0O4DYoYdswRowlIJAGgIq',
       description:
           'An application for download videos from tiktok and save it to gallery.',
-      githubRepoLink: 'https://github.com/radyhaggag/tiktok_downloader',
-      previewLink: 'https://youtu.be/mWeA625pcrI',
     ),
     Project(
       name: 'Bookly',
       imageUrl:
           'https://drive.google.com/uc?id=1yQtoq-wjVejWPXRI7gzGMXPUZrRob8kY',
       description: 'An application to explore books and view their details.',
-      githubRepoLink:
-          'https://github.com/radyhaggag/bookly_app_with_mvvm_and_bloc',
-      previewLink: 'https://youtu.be/3nU_dYjsPsg',
     ),
     Project(
       name: 'Image processing',
@@ -64,9 +58,6 @@ abstract class AppConstants {
           'https://drive.google.com/uc?id=1hd7U3HgoDqXEi9eDKYjrY9iqlWa6qt8E',
       description:
           'An Desktop program for process images and apply some filters to them.',
-      githubRepoLink:
-          'https://github.com/radyhaggag/image_processing_program_with_python_flet',
-      previewLink: 'https://youtu.be/s1KFdBKNFig',
     ),
     Project(
       name: 'Salat al janazah',
@@ -76,7 +67,6 @@ abstract class AppConstants {
           'An application for add janazah prayer and view the prayers for nearby people',
       googlePlay:
           'https://play.google.com/store/apps/details?id=com.SJY.salataljanaza',
-      previewLink: 'https://youtu.be/wK9Y9BhP190',
     ),
     Project(
       name: 'Ghaslah',
@@ -84,7 +74,6 @@ abstract class AppConstants {
           'https://drive.google.com/uc?id=1ed4H2-cH6yk_kVkDdxOLcUkgP1xpuo72',
       description:
           'An application for add wash cars reservation with location in map and the picker will come to wash the cars',
-      previewLink: 'https://youtu.be/gkeRSAfCZaI',
     ),
     Project(
       name: 'Zawilan',
@@ -92,7 +81,6 @@ abstract class AppConstants {
           'https://drive.google.com/uc?id=1ElTwguynMLqhS295-IE7bTTabsZGZp8s',
       description:
           'Zwailan is an education app based on units and sections system, you start by sign up on app and wait until the teacher accept your join request.',
-      previewLink: 'https://youtu.be/g92W-SmfkKc',
       googlePlay:
           'https://play.google.com/store/apps/details?id=com.radyhaggag.zawilan',
     ),

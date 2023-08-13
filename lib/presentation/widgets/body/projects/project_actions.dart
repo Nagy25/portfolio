@@ -17,49 +17,28 @@ class ProjectActions extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          if (project.previewLink != null)
+          if (project.googlePlay != null)
             Expanded(
               child: CustomButton(
-                label: 'Preview',
-                backgroundColor: AppColors.primaryColor,
-                onPressed: () {
-                  html.window.open(project.previewLink!, '_blank');
-                },
-              ),
-            ),
-          if (project.githubRepoLink != null) ...[
-            if (project.previewLink != null) const SizedBox(width: 18),
-            Expanded(
-              child: CustomButton(
-                label: 'Github',
-                borderColor: AppColors.primaryColor,
-                onPressed: () {
-                  html.window.open(project.githubRepoLink!, '_blank');
-                },
-              ),
-            ),
-          ],
-          if (project.googlePlay != null) ...[
-            if (project.previewLink != null || project.githubRepoLink != null)
-              const SizedBox(width: 18),
-            Expanded(
-              child: CustomButton(
-                label: 'play store',
+                label: 'google play',
                 borderColor: AppColors.primaryColor,
                 onPressed: () {
                   html.window.open(project.googlePlay!, '_blank');
                 },
               ),
             ),
-          ],
-          if (project.previewLink == null &&
-              project.githubRepoLink == null &&
-              project.googlePlay == null)
+          if (project.appleStore != null)
+            const SizedBox(
+              width: 20,
+            ),
+          if (project.appleStore != null)
             Expanded(
               child: CustomButton(
-                label: 'No actions available',
+                label: 'apple store',
                 borderColor: AppColors.primaryColor,
-                onPressed: () {},
+                onPressed: () {
+                  html.window.open(project.appleStore!, '_blank');
+                },
               ),
             )
         ],
