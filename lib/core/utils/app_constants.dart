@@ -12,16 +12,10 @@ abstract class AppConstants {
           'I am a Senior mobile developer. I have experience using Dart and Flutter Framework.',
     ),
     CustomService(
-      service: 'UI & UX DESIGNING',
+      service: 'DESKTOP DEVELOPMENT',
       logo: AppAssets.uiDesignLogo,
       description:
           'I design beautiful web interfaces with Figma and Adobe XD. I design beautiful web interfaces with Figma and Adobe XD.',
-    ),
-    CustomService(
-      service: 'WEB SCRAPING',
-      logo: AppAssets.scrappingLogo,
-      description:
-          'I can collect content and data from the internet then manipulate and analyze as needed.',
     ),
   ];
   static const List<Project> projects = [
