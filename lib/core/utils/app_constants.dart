@@ -9,7 +9,7 @@ abstract class AppConstants {
       service: 'MOBILE DEVELOPMENT',
       logo: AppAssets.androidLogo,
       description:
-          'I am a Junior mobile developer. I have experience using Dart and Flutter Framework.',
+          'I am a Senior mobile developer. I have experience using Dart and Flutter Framework.',
     ),
     CustomService(
       service: 'UI & UX DESIGNING',

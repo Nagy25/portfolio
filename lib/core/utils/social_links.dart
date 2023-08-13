@@ -1,6 +1,9 @@
 abstract class SocialLinks {
-  static const String facebook = "https://www.facebook.com/radyhaggag5";
-  static const String twitter = "https://twitter.com/RadyHaggag5";
-  static const String instagram = "https://www.instagram.com/radyhaggag5";
-  static const String linkedin = "https://www.linkedin.com/in/radyhaggag";
+  static const String facebook =
+      "https://m.facebook.com/profile.php/?id=100000863677596";
+  static const String twitter =
+      "https://twitter.com/ahmed74597309?t=VhD8TMt1c0go6X2tRNy3BQ&s=09";
+  static const String github = "https://github.com/Nagy25";
+  static const String linkedin =
+      "https://www.linkedin.com/in/ahmed-nagy-415580153";
 }
