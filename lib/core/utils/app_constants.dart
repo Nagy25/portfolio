@@ -2,7 +2,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../data/models/custom_service.dart';
 import '../../data/models/project.dart';
-import 'app_assets.dart';
 
 abstract class AppConstants {
   static const double appBarHeight = 80;
@@ -40,49 +39,46 @@ abstract class AppConstants {
       appleStore: "https://apps.apple.com/us/app/mashaheer-egy/id1602907488",
     ),
     Project(
-      name: 'TikTok Downloader',
-      imageUrl:
-          'https://drive.google.com/uc?id=1SypuIPVdokg0O4DYoYdswRowlIJAGgIq',
-      description:
-          'An application for download videos from tiktok and save it to gallery.',
-    ),
+        name: 'Group trip',
+        imageUrl:
+            'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/7c/0b/60/7c0b60e9-a4f3-56e2-43ed-e0edbddbdb87/78ab8b3e-bcb6-42e8-a05d-7de070a0cc5c_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-04-14_at_15.18.33.png/313x0w.webp',
+        description:
+            'Build your memories with this application. Customize your trip as you wish and share your trip with your friends on social media. Go on a trip with people you don’t know, but you will be happy spending time with them',
+        appleStore: "https://apps.apple.com/eg-ar/app/group-trip/id1606933247"),
     Project(
-      name: 'Bookly',
+      name: 'Booking-lab',
       imageUrl:
-          'https://drive.google.com/uc?id=1yQtoq-wjVejWPXRI7gzGMXPUZrRob8kY',
-      description: 'An application to explore books and view their details.',
-    ),
-    Project(
-      name: 'Image processing',
-      imageUrl:
-          'https://drive.google.com/uc?id=1hd7U3HgoDqXEi9eDKYjrY9iqlWa6qt8E',
+          'https://play-lh.googleusercontent.com/u60dlUt1fa6vP07ug-CDLGOwg_Ly9hzmGswWbf8ZVog-CbfXZEFN6K59QplFduIzmo0=w526-h296-rw',
       description:
-          'An Desktop program for process images and apply some filters to them.',
-    ),
-    Project(
-      name: 'Salat al janazah',
-      imageUrl:
-          'https://drive.google.com/uc?id=1UpCGckOS46GdTuHU4wuj7Abo_97gxe_E',
-      description:
-          'An application for add janazah prayer and view the prayers for nearby people',
+          'medical analyzes and to know the prices of medical tests in different laboratories as well as you can know the analysis preparations to be followed before performing the analysis',
       googlePlay:
-          'https://play.google.com/store/apps/details?id=com.SJY.salataljanaza',
+          "https://play.google.com/store/apps/details?id=com.elmashriqandkhraman.bookinglab&hl=en&gl=US",
     ),
     Project(
-      name: 'Ghaslah',
+      name: 'Amlakna',
       imageUrl:
-          'https://drive.google.com/uc?id=1ed4H2-cH6yk_kVkDdxOLcUkgP1xpuo72',
+          'https://play-lh.googleusercontent.com/cIfWZ4ZJzHrEp1KeQKqY-phyten4X3UzpaOUF9U2tH8yFNRMcCJORxXukCYrhxhGaw=w526-h296-rw',
       description:
-          'An application for add wash cars reservation with location in map and the picker will come to wash the cars',
-    ),
-    Project(
-      name: 'Zawilan',
-      imageUrl:
-          'https://drive.google.com/uc?id=1ElTwguynMLqhS295-IE7bTTabsZGZp8s',
-      description:
-          'Zwailan is an education app based on units and sections system, you start by sign up on app and wait until the teacher accept your join request.',
+          'property application specializes in real estate development projects, fees and auctions via the electronic wallet.',
       googlePlay:
-          'https://play.google.com/store/apps/details?id=com.radyhaggag.zawilan',
+          "https://play.google.com/store/apps/details?id=com.amlak.amlak",
     ),
+    Project(
+      name: 'Drug egy',
+      imageUrl:
+          'https://play-lh.googleusercontent.com/B2ntLQOm9dOWiTpHNoI8GBEq-1g5OTg5u7XjXVFz0ih_G8QLbTf2wfiKJ1kOltf3BGE=w526-h296-rw',
+      description:
+          'egyptian Pharmaceutical drug index with trade name , scientific name , company name and price',
+      googlePlay:
+          'https://play.google.com/store/apps/details?id=com.ahmed.nagy.drugegy',
+    ),
+    Project(
+        name: 'Arzak',
+        imageUrl:
+            'https://play-lh.googleusercontent.com/aQTTf_4X6_3H0bR_jk5s0yFg8bTu9unBLUM1n0SRU8CfyE1PNfhm2isjSynrxZo3qKk=w526-h296-rw',
+        description:
+            'Arzaq is a high-tech agricultural company that helps the workforce to receive their daily payments on time in their accounts, we provide a complete solution to manage the daily payments of agricultural workers from start to finish with facilities and financing.',
+        googlePlay:
+            "https://play.google.com/store/apps/details?id=com.ArzaaqSolutionsAndSystems.arzaaq"),
   ];
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_enums.dart';
@@ -77,7 +78,21 @@ class _ContactFormState extends State<ContactForm> {
             const SizedBox(height: 16),
             CustomButton(
               label: 'Submit',
-              onPressed: () {},
+              onPressed: () async {
+                final Uri params = Uri(
+                  scheme: 'mailto',
+                  path: 'ahmednagyhero25@gmail.com',
+                  query:
+                      'subject=${_subjectController.text} &body= ${_emailController.text} \n ${_messageController.text}',
+                );
+
+                final String url = params.toString();
+                if (await canLaunch(url)) {
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              },
               backgroundColor: AppColors.primaryColor,
               width: _getFormWidth(context.width),
             ),
