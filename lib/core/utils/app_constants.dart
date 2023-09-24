@@ -29,6 +29,17 @@ abstract class AppConstants {
       googlePlay: "https://play.google.com/store/apps/details?id=com.deiil",
     ),
     Project(
+      name: 'منصة القمة التعليمية',
+      imageUrl:
+          'https://play-lh.googleusercontent.com/VIe6Ld5Rlq-AwkF4P9vxAYLU-w43mmJJx0SBU45dBVtcIJu-Yx-YIqjfye_EhcTPg8o=w240-h480-rw',
+      description:
+          'منصة تعليمية شاملة بها افضل المدرسين مع ضمان المتابعة الجيدة للطلبه من خلال حل الواجبات على كل درس وإختبارات متخصصة وشاملة على الدروس والفصول والمواد وبنوك اسئلة والمزيد',
+      googlePlay:
+          "https://play.google.com/store/apps/details?id=com.ahmed.alkema",
+      appleStore:
+          "https://apps.apple.com/us/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D9%82%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/id1643443516",
+    ),
+    Project(
       name: 'Brandster',
       imageUrl:
           'https://play-lh.googleusercontent.com/E6K3BkBYT5Tb1J_JLiVhFBi-exmuTZoaQ1ZfaWLwTbPWQJJFuF-r7kJj3HiYz3ZT-Rc=w2560-h1440-rw',
