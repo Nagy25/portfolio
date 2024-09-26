@@ -21,6 +21,16 @@ abstract class AppConstants {
   ];
   static const List<Project> projects = [
     Project(
+        name: 'FellingSupport',
+        imageUrl:
+            'https://play-lh.googleusercontent.com/GKQVTO2DU_0ssL3WD0_IZDIE-trv4pwYKpveg61peEpxqcYPaKzwXCPnKaH7pw5_wVU=w240-h480-rw',
+        description:
+            'the first dedicated platform for emotional support and communication through feelings, enabling users of all emotional states - whether happy, angry, or anywhere in between - to communicate through the expression of feelings. Our revolutionary platform transcends traditional language barriers and brings people together through the shared experience of emotions, creating a global community of understanding and support',
+        googlePlay:
+            "https://play.google.com/store/apps/details?id=com.feeling_support.feeling_support&hl=en_US",
+        appleStore:
+            "https://apps.apple.com/us/app/feelingsupport/id6448984606"),
+    Project(
       name: 'Deiil',
       imageUrl:
           'https://play-lh.googleusercontent.com/CIdFZeM5roc6gaQqUAPRrX5YtBM09pYHOBJ4ZLktbu-9BF_fhBoNqNefrUFBtGmVjMQ=w2560-h1440-rw',
