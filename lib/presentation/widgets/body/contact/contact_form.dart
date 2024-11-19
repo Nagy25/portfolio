@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-
+import 'package:url_launcher/url_launcher_string.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
@@ -87,8 +86,8 @@ class _ContactFormState extends State<ContactForm> {
                 );
 
                 final String url = params.toString();
-                if (await canLaunch(url)) {
-                  await launch(url);
+                if (await canLaunchUrlString(url)) {
+                  await launchUrlString(url);
                 } else {
                   throw 'Could not launch $url';
                 }
