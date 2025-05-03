@@ -5,7 +5,7 @@ abstract class AppStrings {
       "Flutter developer with +7 years of experience. I have completed many projects that prove my ability to provide creative and high-quality solutions.";
   static String aboutMeMsg =
       "I'm a Flutter developer with a good understanding of the Flutter framework,  API integration, clean code writing and knowledge of solid principles and clean architecture. I have completed many projects that prove my ability to provide creative and high-quality solutions and finish them in an almost complete way with a great user experience without any problems facing users";
-  static const String numOfExperience = '6+';
+  static const String numOfExperience = '7+';
   static const String experienceMsg =
       'Years of experience, Specialized in building apps, mobile , desktop and web ';
   static const String servicesIOffer = 'The services i offer:';

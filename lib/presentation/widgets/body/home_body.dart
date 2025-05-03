@@ -95,18 +95,16 @@ class _HomeBodyState extends State<HomeBody> {
       },
       child: Stack(
         children: [
-          Padding(
+          SingleChildScrollView(
             padding: EdgeInsets.symmetric(horizontal: context.width * .08),
-            child: SingleChildScrollView(
-              controller: _controller,
-              child: Column(
-                children: [
-                  IntroSection(key: introKey),
-                  AboutMeSection(key: aboutKey),
-                  ProjectsSection(key: projectKey),
-                  ContactSection(key: contactKey),
-                ],
-              ),
+            controller: _controller,
+            child: Column(
+              children: [
+                IntroSection(key: introKey),
+                AboutMeSection(key: aboutKey),
+                ProjectsSection(key: projectKey),
+                ContactSection(key: contactKey),
+              ],
             ),
           ),
           const VerticalHeadersBuilder(),
