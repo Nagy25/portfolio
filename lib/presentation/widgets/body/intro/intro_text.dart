@@ -54,7 +54,7 @@ class IntroText extends StatelessWidget {
     );
   }
 
-  _getTextAlign(double screenWidth) {
+  TextAlign _getTextAlign(double screenWidth) {
     return screenWidth < DeviceType.mobile.getMaxWidth()
         ? TextAlign.center
         : TextAlign.start;

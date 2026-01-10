@@ -9,7 +9,7 @@ abstract class CustomTheme {
     primaryColor: AppColors.primaryColor,
     highlightColor: AppColors.secondaryColor,
     scrollbarTheme: ScrollbarThemeData(
-      thumbColor: MaterialStateProperty.all(AppColors.primaryColor),
+      thumbColor: WidgetStateProperty.all(AppColors.primaryColor),
     ),
     scaffoldBackgroundColor: AppColors.scaffoldColor,
     fontFamily: 'Poppins',

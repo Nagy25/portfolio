@@ -37,7 +37,7 @@ class CustomHeaderBtn extends StatelessWidget {
     );
   }
 
-  Color _getHeaderColor({required currentIndex, required int headerIndex}) {
+  Color _getHeaderColor({required int currentIndex, required int headerIndex}) {
     if (currentIndex == headerIndex) {
       return AppColors.primaryColor;
     } else {

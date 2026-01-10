@@ -30,13 +30,13 @@ class CustomMenuBtn extends StatelessWidget {
     );
   }
 
-  _menuBtnClicked(BuildContext context) {
+  void _menuBtnClicked(BuildContext context) {
     context.read<HomeBloc>().add(
           ChangeAppBarHeadersAxis(AppBarHeadersAxis.vertical),
         );
   }
 
-  _closeBtnClicked(BuildContext context) {
+  void _closeBtnClicked(BuildContext context) {
     context.read<HomeBloc>().add(
           ChangeAppBarHeadersAxis(AppBarHeadersAxis.horizontal),
         );

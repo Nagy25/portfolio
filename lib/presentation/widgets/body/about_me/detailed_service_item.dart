@@ -1,4 +1,5 @@
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/utils/app_colors.dart';
@@ -70,11 +71,11 @@ class _DetailedServiceItemState extends State<DetailedServiceItem> {
     );
   }
 
-  void _onExit(event) {
+  void _onExit(PointerExitEvent event) {
     setState(() => itemColor = AppColors.white);
   }
 
-  void _onEnter(event) {
+  void _onEnter(PointerEnterEvent event) {
     setState(() => itemColor = AppColors.primaryColor);
   }
 }

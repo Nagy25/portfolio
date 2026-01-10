@@ -13,6 +13,12 @@ abstract class AppConstants {
           'I am a Senior mobile developer. I have experience using Dart and Flutter Framework.',
     ),
     CustomService(
+      service: 'WEB DEVELOPMENT',
+      icon: FontAwesomeIcons.laptop,
+      description:
+          'I design beautiful web interfaces with Figma and Adobe XD. I design beautiful web interfaces with Figma and Adobe XD.',
+    ),
+    CustomService(
       service: 'DESKTOP DEVELOPMENT',
       icon: FontAwesomeIcons.desktop,
       description:
@@ -21,22 +27,34 @@ abstract class AppConstants {
   ];
   static const List<Project> projects = [
     Project(
-        name: 'FellingSupport',
-        imageUrl:
-            'https://play-lh.googleusercontent.com/GKQVTO2DU_0ssL3WD0_IZDIE-trv4pwYKpveg61peEpxqcYPaKzwXCPnKaH7pw5_wVU=w240-h480-rw',
-        description:
-            'the first dedicated platform for emotional support and communication through feelings, enabling users of all emotional states - whether happy, angry, or anywhere in between - to communicate through the expression of feelings. Our revolutionary platform transcends traditional language barriers and brings people together through the shared experience of emotions, creating a global community of understanding and support',
-        googlePlay:
-            "https://play.google.com/store/apps/details?id=com.feeling_support.feeling_support&hl=en_US",
-        appleStore:
-            "https://apps.apple.com/us/app/feelingsupport/id6448984606"),
-    Project(
-      name: 'Deiil',
+      name: 'HalaMeet',
       imageUrl:
-          'https://play-lh.googleusercontent.com/CIdFZeM5roc6gaQqUAPRrX5YtBM09pYHOBJ4ZLktbu-9BF_fhBoNqNefrUFBtGmVjMQ=w2560-h1440-rw',
+          'https://play-lh.googleusercontent.com/2TIMCL0JFn9SdERspdfqMd-AniFkGSQYIDn2jPeykpvQnsA0CYMzKrq8lj2Hojefqg=w480-h960-rw',
+      description: 'communication app audio video chat using WebRtc',
+      googlePlay:
+          "https://play.google.com/store/apps/details?id=enterprise.kmeet.io",
+      appleStore: "https://apps.apple.com/us/app/hala-meet/id1584773829",
+    ),
+    Project(
+      name: 'جمعية-عزوة',
+      imageUrl:
+          'https://play-lh.googleusercontent.com/Wdiqa42SJOT-CSrl9WzkIY0Fzdx_a_EpLhnpzK_PIiFwv5pjepdGikqit7pdjyVqjsE=w480-h960-rw',
       description:
-          'Dell helps individuals to obtain their request within the application with the same details that they requested for anything from all categories',
-      googlePlay: "https://play.google.com/store/apps/details?id=com.deiil",
+          'تختص جمعية عزوة بتقديم الخدمات  للعون الحقوقى في قضايا الأحوال الشخصية مثل (طلاق، حضانة، نفقة.. إلخ)',
+      googlePlay:
+          "https://play.google.com/store/apps/details?id=com.ezwah.beneficiary",
+      appleStore:
+          "https://apps.apple.com/eg/app/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%B9%D8%B2%D9%88%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF/id6502395812",
+    ),
+    Project(
+      name: 'FellingSupport',
+      imageUrl:
+          'https://play-lh.googleusercontent.com/GKQVTO2DU_0ssL3WD0_IZDIE-trv4pwYKpveg61peEpxqcYPaKzwXCPnKaH7pw5_wVU=w240-h480-rw',
+      description:
+          'the first dedicated platform for emotional support and communication through feelings, enabling users of all emotional states - whether happy, angry, or anywhere in between - to communicate through the expression of feelings. Our revolutionary platform transcends traditional language barriers and brings people together through the shared experience of emotions, creating a global community of understanding and support',
+      googlePlay:
+          "https://play.google.com/store/apps/details?id=com.feeling_support.feeling_support&hl=en_US",
+      appleStore: "https://apps.apple.com/us/app/feelingsupport/id6448984606",
     ),
     Project(
       name: 'منصة القمة التعليمية',
@@ -50,23 +68,6 @@ abstract class AppConstants {
           "https://apps.apple.com/us/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D9%82%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/id1643443516",
     ),
     Project(
-      name: 'Brandster',
-      imageUrl:
-          'https://play-lh.googleusercontent.com/E6K3BkBYT5Tb1J_JLiVhFBi-exmuTZoaQ1ZfaWLwTbPWQJJFuF-r7kJj3HiYz3ZT-Rc=w2560-h1440-rw',
-      description:
-          'It’s an application that specializes in selling all kinds of clothes from different international brands with the highest quality and best price, where the customer chooses all the products that he wants to buy, and then we deliver those products',
-      googlePlay:
-          "https://play.google.com/store/apps/details?id=com.mashaheer.codigo",
-      appleStore: "https://apps.apple.com/us/app/mashaheer-egy/id1602907488",
-    ),
-    Project(
-        name: 'Group trip',
-        imageUrl:
-            'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/7c/0b/60/7c0b60e9-a4f3-56e2-43ed-e0edbddbdb87/78ab8b3e-bcb6-42e8-a05d-7de070a0cc5c_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-04-14_at_15.18.33.png/313x0w.webp',
-        description:
-            'Build your memories with this application. Customize your trip as you wish and share your trip with your friends on social media. Go on a trip with people you don’t know, but you will be happy spending time with them',
-        appleStore: "https://apps.apple.com/eg-ar/app/group-trip/id1606933247"),
-    Project(
       name: 'Booking-lab',
       imageUrl:
           'https://play-lh.googleusercontent.com/u60dlUt1fa6vP07ug-CDLGOwg_Ly9hzmGswWbf8ZVog-CbfXZEFN6K59QplFduIzmo0=w526-h296-rw',
@@ -75,31 +76,5 @@ abstract class AppConstants {
       googlePlay:
           "https://play.google.com/store/apps/details?id=com.elmashriqandkhraman.bookinglab&hl=en&gl=US",
     ),
-    Project(
-      name: 'Amlakna',
-      imageUrl:
-          'https://play-lh.googleusercontent.com/cIfWZ4ZJzHrEp1KeQKqY-phyten4X3UzpaOUF9U2tH8yFNRMcCJORxXukCYrhxhGaw=w526-h296-rw',
-      description:
-          'property application specializes in real estate development projects, fees and auctions via the electronic wallet.',
-      googlePlay:
-          "https://play.google.com/store/apps/details?id=com.amlak.amlak",
-    ),
-    Project(
-      name: 'Drug egy',
-      imageUrl:
-          'https://play-lh.googleusercontent.com/B2ntLQOm9dOWiTpHNoI8GBEq-1g5OTg5u7XjXVFz0ih_G8QLbTf2wfiKJ1kOltf3BGE=w526-h296-rw',
-      description:
-          'egyptian Pharmaceutical drug index with trade name , scientific name , company name and price',
-      googlePlay:
-          'https://play.google.com/store/apps/details?id=com.ahmed.nagy.drugegy',
-    ),
-    Project(
-        name: 'Arzak',
-        imageUrl:
-            'https://play-lh.googleusercontent.com/aQTTf_4X6_3H0bR_jk5s0yFg8bTu9unBLUM1n0SRU8CfyE1PNfhm2isjSynrxZo3qKk=w526-h296-rw',
-        description:
-            'Arzaq is a high-tech agricultural company that helps the workforce to receive their daily payments on time in their accounts, we provide a complete solution to manage the daily payments of agricultural workers from start to finish with facilities and financing.',
-        googlePlay:
-            "https://play.google.com/store/apps/details?id=com.ArzaaqSolutionsAndSystems.arzaaq"),
   ];
 }
